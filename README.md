@@ -334,8 +334,9 @@ const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
             + 'FN:Jeff Singh\n' // full name
             + 'ORG:Ashoka Uni;\n' // the organization of the contact
-            + 'TEL;type=CELL;type=VOICE;waid=911234567890:+91 12345 67890\n' // WhatsApp ID + phone number
+            + 'TEL;type=CELL;type=VOICE;waid=919400900501:+91 12345 6890\n' // WhatsApp ID + phone number
             + 'END:VCARD'
+	  
 const sentMsg  = await sock.sendMessage(
     id,
     { 
@@ -364,8 +365,8 @@ const sendMsg = await sock.sendMessage(id, buttonMessage)
 
 //send a template message!
 const templateButtons = [
-    {index: 1, urlButton: {displayText: '⭐ Star Baileys on GitHub!', url: 'https://github.com/adiwajshing/Baileys'}},
-    {index: 2, callButton: {displayText: 'Call me!', phoneNumber: '+1 (234) 5678-901'}},
+    {index: 1, urlButton: {displayText: '⭐ Star Baileys on GitHub!', url: 'noki eruno epoll kittum'}},
+    {index: 2, callButton: {displayText: 'Call me!', phoneNumber: '+91 94009 00501'}},
     {index: 3, quickReplyButton: {displayText: 'This is a reply, just like normal buttons!', id: 'id-like-buttons-message'}},
 ]
 
